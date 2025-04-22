@@ -1593,13 +1593,6 @@ function Necrosis_UpdateIcons()
 				NecrosisBuffMenu9:SetNormalTexture("Interface\\AddOns\\Necrosis\\UI\\Banish-01");
 			end
 		end
-		if NECROSIS_SPELL_TABLE[44].ID then
-			if (NECROSIS_SPELL_TABLE[44].Mana > mana) or (not UnitExists("Pet")) then
-				NecrosisPetMenu9:SetNormalTexture("Interface\\AddOns\\Necrosis\\UI\\Sacrifice-03");
-			else
-				NecrosisPetMenu9:SetNormalTexture("Interface\\AddOns\\Necrosis\\UI\\Sacrifice-01");
-			end
-		end
 
 	end
 
